@@ -33,6 +33,14 @@ if (
       typeSpeed: 200,
     });
   });
+} else if (nom1 == "stanley" || nom1 == "Stanley") {
+  let nom = `Happy Valentine's day ${"to me"} ❤️ `;
+  $(document).ready(() => {
+    new Typed(".animate-text", {
+      strings: [nom],
+      typeSpeed: 200,
+    });
+  });
 } else {
   let nom = `Happy Valentine's day ${nom1 || FakeName} ❤️ `;
   $(document).ready(() => {
